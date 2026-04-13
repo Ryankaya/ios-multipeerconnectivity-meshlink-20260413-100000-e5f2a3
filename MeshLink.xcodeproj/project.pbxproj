@@ -1,0 +1,371 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		094508FE6EE1C611B55B36D1 /* PeerRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8F27CEDCC891A4B608479C1 /* PeerRowView.swift */; };
+		13F06BA2F21FB0EEA7535401 /* ChatViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E100E3EC8D9C196B7E42EFA /* ChatViewModel.swift */; };
+		3AD6DD4AB3696250606B0C29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074B4BD4D7A80126C058C78B /* ContentView.swift */; };
+		52F1B5AAE2AB32CC46BB685A /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59B1C9174B6C58F92A9D6FF0 /* Message.swift */; };
+		568AAE110D71EA22D95ABEAF /* PeerListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F1EC3CE8E48CF2AFEF6D4EE4 /* PeerListView.swift */; };
+		6777C34C6CAF6C98F7D5E8A4 /* BroadcastView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99E00698410EB53C1B948FF /* BroadcastView.swift */; };
+		8419E090E6AB34F30DE9E60A /* Peer.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE32D0AC0BCD576BBBB0A5D /* Peer.swift */; };
+		8AA6B5D825C69CE626047DF8 /* MultipeerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = F92B6E150CE8D94596CAF803 /* MultipeerService.swift */; };
+		9257D69AC023630DBB410C3C /* ChatView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3FFF8C43B51AB3099DB7EBB2 /* ChatView.swift */; };
+		C10D2B3BB2D1859A592FF46F /* PeerDiscoveryViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACFCED0C0D477B3F49AA7885 /* PeerDiscoveryViewModel.swift */; };
+		C6058140E2891A0A75829071 /* MeshLinkApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE7F92499866F3B77F01E9F3 /* MeshLinkApp.swift */; };
+		C65C2BBD43E6ADC27FAD4506 /* MessageBubbleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6B674D2060842B641E17FE7C /* MessageBubbleView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		074B4BD4D7A80126C058C78B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		3877E6929D10DDBC8CBC012D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		3FFF8C43B51AB3099DB7EBB2 /* ChatView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatView.swift; sourceTree = "<group>"; };
+		56645795ABDC8B3DDA62E460 /* MeshLink.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = MeshLink.entitlements; sourceTree = "<group>"; };
+		59B1C9174B6C58F92A9D6FF0 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		61811EB8F33691D89392F5F2 /* MeshLink.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = MeshLink.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6B674D2060842B641E17FE7C /* MessageBubbleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MessageBubbleView.swift; sourceTree = "<group>"; };
+		8E100E3EC8D9C196B7E42EFA /* ChatViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewModel.swift; sourceTree = "<group>"; };
+		ACFCED0C0D477B3F49AA7885 /* PeerDiscoveryViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerDiscoveryViewModel.swift; sourceTree = "<group>"; };
+		AE7F92499866F3B77F01E9F3 /* MeshLinkApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MeshLinkApp.swift; sourceTree = "<group>"; };
+		BDE32D0AC0BCD576BBBB0A5D /* Peer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Peer.swift; sourceTree = "<group>"; };
+		C8F27CEDCC891A4B608479C1 /* PeerRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerRowView.swift; sourceTree = "<group>"; };
+		C99E00698410EB53C1B948FF /* BroadcastView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastView.swift; sourceTree = "<group>"; };
+		F1EC3CE8E48CF2AFEF6D4EE4 /* PeerListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PeerListView.swift; sourceTree = "<group>"; };
+		F92B6E150CE8D94596CAF803 /* MultipeerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MultipeerService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		185BE3D0536F4D01751BC18A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F92B6E150CE8D94596CAF803 /* MultipeerService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		22068A2C09FC83209C85DB10 = {
+			isa = PBXGroup;
+			children = (
+				442A9A4C9BC01E7B75FB2737 /* MeshLink */,
+				8F5B909593FC563AF6DA9474 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		442A9A4C9BC01E7B75FB2737 /* MeshLink */ = {
+			isa = PBXGroup;
+			children = (
+				3877E6929D10DDBC8CBC012D /* Info.plist */,
+				56645795ABDC8B3DDA62E460 /* MeshLink.entitlements */,
+				AE7F92499866F3B77F01E9F3 /* MeshLinkApp.swift */,
+				DCE8EF53CB7AF27BC86D1F4D /* Models */,
+				185BE3D0536F4D01751BC18A /* Services */,
+				9E30B754675B8842A385BD00 /* ViewModels */,
+				C5C2F57833F4ABDAEA3863CE /* Views */,
+			);
+			path = MeshLink;
+			sourceTree = "<group>";
+		};
+		8F5B909593FC563AF6DA9474 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				61811EB8F33691D89392F5F2 /* MeshLink.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9E30B754675B8842A385BD00 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				8E100E3EC8D9C196B7E42EFA /* ChatViewModel.swift */,
+				ACFCED0C0D477B3F49AA7885 /* PeerDiscoveryViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		C5C2F57833F4ABDAEA3863CE /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				C99E00698410EB53C1B948FF /* BroadcastView.swift */,
+				3FFF8C43B51AB3099DB7EBB2 /* ChatView.swift */,
+				074B4BD4D7A80126C058C78B /* ContentView.swift */,
+				6B674D2060842B641E17FE7C /* MessageBubbleView.swift */,
+				F1EC3CE8E48CF2AFEF6D4EE4 /* PeerListView.swift */,
+				C8F27CEDCC891A4B608479C1 /* PeerRowView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		DCE8EF53CB7AF27BC86D1F4D /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				59B1C9174B6C58F92A9D6FF0 /* Message.swift */,
+				BDE32D0AC0BCD576BBBB0A5D /* Peer.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D28BE17A83E086B1AEEB848 /* MeshLink */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D557C7B580A1B6F37E60A86 /* Build configuration list for PBXNativeTarget "MeshLink" */;
+			buildPhases = (
+				73F251FA5AF6157B5B4F5773 /* Sources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MeshLink;
+			packageProductDependencies = (
+			);
+			productName = MeshLink;
+			productReference = 61811EB8F33691D89392F5F2 /* MeshLink.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		90B51FDDA36B8BA18ACB07C3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					2D28BE17A83E086B1AEEB848 = {
+						DevelopmentTeam = "";
+					};
+				};
+			};
+			buildConfigurationList = 196D46DFF2D246C22AB12242 /* Build configuration list for PBXProject "MeshLink" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = 22068A2C09FC83209C85DB10;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D28BE17A83E086B1AEEB848 /* MeshLink */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		73F251FA5AF6157B5B4F5773 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6777C34C6CAF6C98F7D5E8A4 /* BroadcastView.swift in Sources */,
+				9257D69AC023630DBB410C3C /* ChatView.swift in Sources */,
+				13F06BA2F21FB0EEA7535401 /* ChatViewModel.swift in Sources */,
+				3AD6DD4AB3696250606B0C29 /* ContentView.swift in Sources */,
+				C6058140E2891A0A75829071 /* MeshLinkApp.swift in Sources */,
+				52F1B5AAE2AB32CC46BB685A /* Message.swift in Sources */,
+				C65C2BBD43E6ADC27FAD4506 /* MessageBubbleView.swift in Sources */,
+				8AA6B5D825C69CE626047DF8 /* MultipeerService.swift in Sources */,
+				8419E090E6AB34F30DE9E60A /* Peer.swift in Sources */,
+				C10D2B3BB2D1859A592FF46F /* PeerDiscoveryViewModel.swift in Sources */,
+				568AAE110D71EA22D95ABEAF /* PeerListView.swift in Sources */,
+				094508FE6EE1C611B55B36D1 /* PeerRowView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		16CC39B604B91C1B272B21F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeshLink/MeshLink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeshLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.meshlink;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		254A84963238CF93F7D1D852 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		4E717AF19B9E29A75C446B84 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = MeshLink/MeshLink.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEVELOPMENT_TEAM = "";
+				INFOPLIST_FILE = MeshLink/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ryankaya.meshlink;
+				SDKROOT = iphoneos;
+				SWIFT_VERSION = 5.9;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC9E7084D50312C66DAD0A6B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"DEBUG=1",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		196D46DFF2D246C22AB12242 /* Build configuration list for PBXProject "MeshLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC9E7084D50312C66DAD0A6B /* Debug */,
+				254A84963238CF93F7D1D852 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		5D557C7B580A1B6F37E60A86 /* Build configuration list for PBXNativeTarget "MeshLink" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4E717AF19B9E29A75C446B84 /* Debug */,
+				16CC39B604B91C1B272B21F1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 90B51FDDA36B8BA18ACB07C3 /* Project object */;
+}

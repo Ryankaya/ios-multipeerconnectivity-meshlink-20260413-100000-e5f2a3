@@ -1,0 +1,39 @@
+name: MeshLink
+options:
+  bundleIdPrefix: com.ryankaya
+  deploymentTarget:
+    iOS: "16.2"
+  xcodeVersion: "15.0"
+targets:
+  MeshLink:
+    type: application
+    platform: iOS
+    sources:
+      - MeshLink
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.ryankaya.meshlink
+        SWIFT_VERSION: 5.9
+        TARGETED_DEVICE_FAMILY: "1,2"
+        DEVELOPMENT_TEAM: ""
+        ASSETCATALOG_COMPILER_APPICON_NAME: AppIcon
+        ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME: AccentColor
+    info:
+      path: MeshLink/Info.plist
+      properties:
+        NSLocalNetworkUsageDescription: "MeshLink uses your local network to discover and communicate with nearby Apple devices via peer-to-peer mesh networking. No internet connection required."
+        NSBonjourServices:
+          - "_meshlink-svc._tcp"
+          - "_meshlink-svc._udp"
+        UILaunchScreen: {}
+        UISupportedInterfaceOrientations:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+        UISupportedInterfaceOrientations~ipad:
+          - UIInterfaceOrientationPortrait
+          - UIInterfaceOrientationPortraitUpsideDown
+          - UIInterfaceOrientationLandscapeLeft
+          - UIInterfaceOrientationLandscapeRight
+    entitlements:
+      path: MeshLink/MeshLink.entitlements
